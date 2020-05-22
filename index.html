@@ -10,6 +10,7 @@
     
     ga('create', 'UA-166673277-3', 'auto');  
     ga('send', 'pageview');
+    ga('send', {hitType: 'event',eventCategory: 'Videos',eventAction: 'play', eventLabel: 'Fall Campaign'});
     </script>
     <!-- End Google Analytics -->
 </script>
@@ -29,7 +30,7 @@
        <button type="button" class="btn btn-outline-success">Success</button>
        </div>
 	
-		   <a href="https://www.google.com/" onclick="ga('send', 'event', 'eventCategory', 'eventAction');" class="btn btn-primary btn-lg active" aria-pressed="true">Click Here - GA Event</a>
+		   <a href="https://www.google.com/" onclick="ga('send', {hitType: 'event',eventCategory: 'Videos',eventAction: 'play',eventLabel: 'Fall Campaign'});" class="btn btn-primary btn-lg active" aria-pressed="true">Click Here - GA Event</a>
 		
       </div>
 </body>
